@@ -12,7 +12,7 @@ let package = Package(
             targets: ["SignalRSwift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire", from: "5.0.0"),
+        //.package(url: "https://github.com/Alamofire/Alamofire", from: "5.0.0"),
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],

@@ -70,4 +70,4 @@ fastlane/test_output
 .idea/vcs.xml
 .idea/workspace.xml
 .idea/xcode.xml
-.DS_Store
+*.DS_Store
