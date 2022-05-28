@@ -1,24 +1,16 @@
-// swift-tools-version: 5.6
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
+// swift-tools-version:5.0
 import PackageDescription
 
 let package = Package(
     name: "SignalRSwift",
+    platforms: [.iOS(.v12)],
     products: [
-        .library(
-            name: "SignalRSwift",
-            targets: ["SignalRSwift"]),
-    ],
-    dependencies: [
-        //.package(url: "https://github.com/Alamofire/Alamofire", from: "5.0.0"),
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .library(name: "SignalRSwift", targets: ["SignalRSwift"])
     ],
     targets: [
         .target(
             name: "SignalRSwift",
-            path: "SignalRSwift",
-            dependencies: []),
+            path: "Source"
+        ),
     ]
 )

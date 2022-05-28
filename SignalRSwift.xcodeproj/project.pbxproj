@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				5B90B54228420FE400D86E7F /* Package.swift */,
-				5B90B4EC28420D6C00D86E7F /* SignalRSwift */,
+				5B90B4EC28420D6C00D86E7F /* Source */,
 				5B90B4EB28420D6C00D86E7F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B90B4EC28420D6C00D86E7F /* SignalRSwift */ = {
+		5B90B4EC28420D6C00D86E7F /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				5B90B4FB28420E3E00D86E7F /* Client */,
@@ -121,7 +121,7 @@
 				5B90B4ED28420D6C00D86E7F /* SignalRSwift.h */,
 				5B90B4EE28420D6C00D86E7F /* SignalRSwift.docc */,
 			);
-			path = SignalRSwift;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		5B90B4F628420E3D00D86E7F /* Extensions */ = {
